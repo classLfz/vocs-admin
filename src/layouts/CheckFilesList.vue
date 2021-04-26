@@ -25,6 +25,11 @@
 
 <template>
 	<div>
+		<el-breadcrumb class="breadcrumb" separator="/">
+			<el-breadcrumb-item :to="{ path: '/main/check-files/list' }">区域列表</el-breadcrumb-item>
+			<el-breadcrumb-item>检测文件列表</el-breadcrumb-item>
+		</el-breadcrumb>
+
 		<div class="operator">
 			<span class="label">区域/企业：</span>
 			<el-cascader
@@ -43,11 +48,6 @@
 			</el-date-picker>
 			<el-button class="search-btn" size="small" type="primary">搜索</el-button>
 		</div>
-
-		<el-breadcrumb class="breadcrumb" separator="/">
-			<el-breadcrumb-item :to="{ path: '/main/check-files/list' }">区域列表</el-breadcrumb-item>
-			<el-breadcrumb-item>检测文件列表</el-breadcrumb-item>
-		</el-breadcrumb>
 
 		<div class="table-container">
 			<el-table
