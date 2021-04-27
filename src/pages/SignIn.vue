@@ -6,13 +6,26 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: #2d3a4b;
+	/* background-color: rgb(45, 58, 75, 0.3); */
+	/* background-image: url('./bg.jpeg');
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat; */
+	position: relative;
+}
+.bg {
+	position: absolute;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	opacity: 0.6;
+	/* background-color: rgb(45, 58, 75, 0.3); */
 }
 .form {
 	width: 380px;
 	background-color: rgba(255, 255, 255, 0.88);
 	border-radius: 4px;
 	padding: 16px;
+	z-index: 1;
 }
 .title {
 	display: flex;
@@ -30,6 +43,7 @@
 
 <template>
 	<div class="sign-in">
+		<img class="bg" src="/bg.jpeg" alt="">
 		<el-form class="form" label-position="top">
 			<h3 class="title"><img class="logo" src="/logo.png" />东莞市VOCs监查管理平台</h3>
 			<el-form-item label="用户名">
