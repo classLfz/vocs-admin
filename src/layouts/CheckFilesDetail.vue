@@ -7,6 +7,9 @@
 	flex-wrap: wrap;
 	margin-top: 12px;
 }
+.el-card {
+	margin-bottom: 24px;
+}
 .el-image {
 	width: 300px;
 	height: auto;
@@ -35,7 +38,7 @@
 						<i class="el-icon-view"></i>
 						浓度值
 					</template>
-					10%
+					66mg/m3
 				</el-descriptions-item>
 				<el-descriptions-item>
 					<template #label>
@@ -60,9 +63,7 @@
 				</el-descriptions-item>
 			</el-descriptions>
 			<div class="images">
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
+				<el-image lazy src="./1.png"></el-image>
 			</div>
 		</el-card>
 		<el-card shadow="hover">
@@ -79,7 +80,7 @@
 						<i class="el-icon-view"></i>
 						浓度值
 					</template>
-					9%
+					90mg/m3
 				</el-descriptions-item>
 				<el-descriptions-item>
 					<template #label>
@@ -104,9 +105,7 @@
 				</el-descriptions-item>
 			</el-descriptions>
 			<div class="images">
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
+				<el-image lazy src="./2.png"></el-image>
 			</div>
 		</el-card>
 		<el-card shadow="hover">
@@ -123,7 +122,7 @@
 						<i class="el-icon-view"></i>
 						浓度值
 					</template>
-					7%
+					108mg/m3
 				</el-descriptions-item>
 				<el-descriptions-item>
 					<template #label>
@@ -148,9 +147,7 @@
 				</el-descriptions-item>
 			</el-descriptions>
 			<div class="images">
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
-				<el-image lazy src="https://cube.elemecdn.com/6/94/4d3ea53c084bad6931a56d5158a48jpeg.jpeg"></el-image>
+				<el-image lazy src="./3.png"></el-image>
 			</div>
 		</el-card>
 	</div>

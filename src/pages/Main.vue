@@ -27,8 +27,7 @@
 				background-color="rgb(48, 65, 86)"
 				text-color="#fff"
 				active-text-color="#1890ff"
-				router
-				@select="onMenuSelect">
+				router>
 				<template v-for="(item, i) in menu" :key="i">
 					<el-submenu v-if="item.children && item.children.length > 0" :index="item.path">
 						<template #title>

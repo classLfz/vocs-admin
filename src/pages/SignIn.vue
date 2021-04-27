@@ -14,6 +14,15 @@
 	border-radius: 4px;
 	padding: 16px;
 }
+.title {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+}
 .btn {
 	width: 100%;;
 }
@@ -22,7 +31,7 @@
 <template>
 	<div class="sign-in">
 		<el-form class="form" label-position="top">
-			<h3>东莞市VOCs监查管理平台</h3>
+			<h3 class="title"><img class="logo" src="/logo.png" />东莞市VOCs监查管理平台</h3>
 			<el-form-item label="用户名">
 				<el-input></el-input>
 			</el-form-item>
